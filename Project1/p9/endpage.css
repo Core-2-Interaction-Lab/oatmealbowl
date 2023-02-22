@@ -1,0 +1,19 @@
+html{
+    font-family: "pt-mono", monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color:rgb(7, 7, 7);
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+  }
+
+  /* Main Part */
+.container{
+  position: relative;
+  
+}
+
+
+
+/* Content */

@@ -1,0 +1,159 @@
+html{
+    font-family: "pt-mono", monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color:rgb(7, 7, 7);
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+  }
+
+  /* Main Part */
+.container{
+  position: absolute;
+}
+
+#text1{
+  position: absolute;
+  width: 1233px;
+  height: 293px;
+}
+
+#text2{
+  position: absolute;
+width: 989px;
+height: 80px;
+/* left: 27px; */
+top: 356px;
+}
+
+#text3{
+  position: absolute;
+  width: 525px;
+  height: 79px;
+  /* left: 27px; */
+  top: 555px;
+}
+
+#text4{
+  position: absolute;
+width: 525px;
+height: 79px;
+/* left: 27px; */
+top: 666px;
+}
+
+#text5{
+  position: absolute;
+width: 525px;
+height: 79px;
+/* left: 27px; */
+top: 777px;
+}
+
+#text6{
+  position: absolute;
+width: 525px;
+height: 79px;
+/* left: 27px; */
+top: 888px;
+}
+
+#text7{
+  position: absolute;
+width: 504px;
+height: 286px;
+left: 776px;
+top: 666px;
+
+}
+
+
+  /* Anchored Menu */
+
+  .menu{
+    position: fixed;
+  
+  }
+
+#inlife{
+  position: absolute;
+  width: 323px;
+  height: 84px;
+  left: 1300px;
+  top: 3px;
+}
+
+#inpoetry{
+  position: absolute;
+  width: 323px;
+  height: 84px;
+  left: 1300px;
+  top: 111px;
+}
+
+#theword{
+  position: absolute;
+  width: 323px;
+  height: 84px;
+  left: 1300px;
+  top: 222px;
+}
+
+#mind{
+  position: absolute;
+  width: 323px;
+  height: 84px;
+  left: 1300px;
+  top: 333px;
+}
+
+#ideas{
+  position: absolute;
+  width: 323px;
+  height: 84px;
+  left: 1300px;
+  top: 444px;
+}
+
+#asentence{
+  position: absolute;
+  width: 323px;
+  height: 84px;
+  left: 1300px;
+  top: 555px;
+}
+
+#semicolons{
+  position: absolute;
+  width: 323px;
+  height: 84px;
+  left: 1300px;
+  top: 666px;
+}
+
+#theend{
+  position: absolute;
+  width: 323px;
+  height: 84px;
+  left: 1300px;
+  top: 777px;
+}
+
+#ad{
+  position: absolute;
+  width: 500px;
+  height: 84px;
+  left: 1300px;
+  top: 888px;
+}
+
+#sleep{
+  position: absolute;
+  width: 323px;
+  height: 84px;
+  left: 1300px;
+  top: 1000px;
+}
+
+/* Content */

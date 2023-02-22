@@ -1,0 +1,32 @@
+html{
+    font-family: "pt-mono", monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    color:rgb(7, 7, 7);
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+  }
+
+  #main{
+    position: absolute;
+  }
+
+  #author{
+    position: absolute;
+    font-size: 38px;
+    left: 60%;
+    top: 400px;
+  }
+
+  #text{
+    position: absolute;
+    font-size: 38px;
+    top: 700px;
+  }
+
+  #me{
+    position: absolute;
+    font-size: 38px;
+    top: 920px;
+  }

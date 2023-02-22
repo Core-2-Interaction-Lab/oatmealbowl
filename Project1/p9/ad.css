@@ -1,0 +1,135 @@
+html{
+    font-family: "pt-mono", monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color:rgb(7, 7, 7);
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+  }
+
+  /* Main Part */
+.container{
+  position: absolute;
+}
+
+#text1{
+  position: absolute;
+  width: 1081px;
+  height: 192px;
+  left: 53px;
+  top: 34px;
+}
+
+#text2{
+  position: absolute;
+width: 241px;
+height: 41px;
+left: 137px;
+top: 367px;
+}
+
+#text3{
+  position: absolute;
+width: 218px;
+height: 41px;
+left: 916px;
+top: 666px;
+}
+
+#text4{
+  position: absolute;
+width: 1019px;
+height: 82px;
+left: 243px;
+top: 888px;
+}
+
+  /* Anchored Menu */
+
+  .menu{
+    position: fixed;
+  
+  }
+
+#inlife{
+  position: absolute;
+  width: 323px;
+  height: 84px;
+  left: 1300px;
+  top: 3px;
+}
+
+#inpoetry{
+  position: absolute;
+  width: 323px;
+  height: 84px;
+  left: 1300px;
+  top: 111px;
+}
+
+#theword{
+  position: absolute;
+  width: 323px;
+  height: 84px;
+  left: 1300px;
+  top: 222px;
+}
+
+#mind{
+  position: absolute;
+  width: 323px;
+  height: 84px;
+  left: 1300px;
+  top: 333px;
+}
+
+#ideas{
+  position: absolute;
+  width: 323px;
+  height: 84px;
+  left: 1300px;
+  top: 444px;
+}
+
+#asentence{
+  position: absolute;
+  width: 323px;
+  height: 84px;
+  left: 1300px;
+  top: 555px;
+}
+
+#semicolons{
+  position: absolute;
+  width: 323px;
+  height: 84px;
+  left: 1300px;
+  top: 666px;
+}
+
+#theend{
+  position: absolute;
+  width: 323px;
+  height: 84px;
+  left: 1300px;
+  top: 777px;
+}
+
+#ad{
+  position: absolute;
+  width: 500px;
+  height: 84px;
+  left: 1300px;
+  top: 888px;
+}
+
+#sleep{
+  position: absolute;
+  width: 323px;
+  height: 84px;
+  left: 1300px;
+  top: 1000px;
+}
+
+/* Content */

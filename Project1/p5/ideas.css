@@ -1,0 +1,183 @@
+html{
+    font-family: "pt-mono", monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color:rgb(7, 7, 7);
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+  }
+
+  /* Main Part */
+.container{
+  position: absolute;
+}
+
+#text1{
+  position: absolute;
+  width: 435px;
+  height: 102px;
+  left: 30px;
+  top: 111px;
+}
+
+#text2{
+  position: absolute;
+  width: 145px;
+  height: 335px;
+  left: 297px;
+  top: 192px;
+}
+
+#text3{
+  position: absolute;
+width: 435px;
+height: 139px;
+left: 30px;
+top: 669px;
+}
+
+#text4{
+  position: absolute;
+width: 266px;
+height: 238px;
+left: 297px;
+top: 777px;
+}
+
+#lesson1{
+  position: absolute;
+width: 462px;
+height: 59px;
+left: 550px;
+top: 116px;
+}
+
+#lesson2{
+  position: absolute;
+  width: 462px;
+  height: 59px;
+  left: 590px;
+  top: 180px;
+}
+
+#lesson3{
+  position: absolute;
+  width: 462px;
+  height: 59px;
+  left: 630px;
+  top: 244px;
+}
+
+#lesson4{
+  position: absolute;
+  width: 462px;
+  height: 59px;
+  left: 670px;
+  top: 308px;
+}
+
+#lesson5{
+  position: absolute;
+  width: 462px;
+  height: 59px;
+  left: 710px;
+  top: 372px;
+}
+
+#text5{
+  position: absolute;
+width: 454px;
+height: 128px;
+left: 710px;
+top: 777px;
+}
+
+  /* Anchored Menu */
+
+  .menu{
+    position: fixed;
+  
+  }
+
+#inlife{
+  position: absolute;
+  width: 323px;
+  height: 84px;
+  left: 1300px;
+  top: 3px;
+}
+
+#inpoetry{
+  position: absolute;
+  width: 323px;
+  height: 84px;
+  left: 1300px;
+  top: 111px;
+}
+
+#theword{
+  position: absolute;
+  width: 323px;
+  height: 84px;
+  left: 1300px;
+  top: 222px;
+}
+
+#mind{
+  position: absolute;
+  width: 323px;
+  height: 84px;
+  left: 1300px;
+  top: 333px;
+}
+
+#ideas{
+  position: absolute;
+  width: 323px;
+  height: 84px;
+  left: 1300px;
+  top: 444px;
+}
+
+#asentence{
+  position: absolute;
+  width: 323px;
+  height: 84px;
+  left: 1300px;
+  top: 555px;
+}
+
+#semicolons{
+  position: absolute;
+  width: 323px;
+  height: 84px;
+  left: 1300px;
+  top: 666px;
+}
+
+#theend{
+  position: absolute;
+  width: 323px;
+  height: 84px;
+  left: 1300px;
+  top: 777px;
+}
+
+#ad{
+  position: absolute;
+  width: 500px;
+  height: 84px;
+  left: 1300px;
+  top: 888px;
+}
+
+#sleep{
+  position: absolute;
+  width: 323px;
+  height: 84px;
+  left: 1300px;
+  top: 1000px;
+}
+
+/* Content */

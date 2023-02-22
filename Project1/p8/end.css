@@ -1,0 +1,187 @@
+html{
+    font-family: "pt-mono", monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color:rgb(7, 7, 7);
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+  }
+
+  /* Main Part */
+.container{
+  position: absolute;
+}
+
+#text1{
+  position: absolute;
+  width: 586px;
+  height: 1222px;
+  left: 0px;
+  top: 1px;
+}
+
+#text2{
+  position: absolute;
+  width: 206px;
+  height: 42px;
+  left: 880px;
+  top: 76px;
+font-size: 48px;
+}
+
+#text3{
+  position: absolute;
+width: 206px;
+height: 42px;
+left: 729px;
+top: 178px;
+font-size: 48px;
+}
+
+#text4{
+  position: absolute;
+  width: 206px;
+  height: 42px;
+  left: 698px;
+  top: 225px;  
+font-size: 48px;
+}
+
+#text5{
+  position: absolute;
+width: 106px;
+height: 102px;
+left: 1150px;
+top: 238px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);  
+font-size: 48px;
+}
+
+#text6{
+  position: absolute;
+width: 216px;
+height: 42px;
+left: 960px;
+top: 394px;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+font-size: 48px;
+}
+
+#text7{
+  position: absolute;
+width: 206px;
+height: 42px;
+left: 907px;
+top: 664px;
+font-size: 48px;
+}
+
+#text8{
+  font-size: 48px;
+  position: absolute;
+width: 36px;
+height: 319px;
+left: 750px;
+top: 130px;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+#text9{
+  font-size: 48px;
+  position: absolute;
+  width: 35px;
+  height: 316px;
+  left: 684px;
+  top: 664px;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+  /* Anchored Menu */
+
+  .menu{
+    position: fixed;
+  
+  }
+
+#inlife{
+  position: absolute;
+  width: 323px;
+  height: 84px;
+  left: 1300px;
+  top: 3px;
+}
+
+#inpoetry{
+  position: absolute;
+  width: 323px;
+  height: 84px;
+  left: 1300px;
+  top: 111px;
+}
+
+#theword{
+  position: absolute;
+  width: 323px;
+  height: 84px;
+  left: 1300px;
+  top: 222px;
+}
+
+#mind{
+  position: absolute;
+  width: 323px;
+  height: 84px;
+  left: 1300px;
+  top: 333px;
+}
+
+#ideas{
+  position: absolute;
+  width: 323px;
+  height: 84px;
+  left: 1300px;
+  top: 444px;
+}
+
+#asentence{
+  position: absolute;
+  width: 323px;
+  height: 84px;
+  left: 1300px;
+  top: 555px;
+}
+
+#semicolons{
+  position: absolute;
+  width: 323px;
+  height: 84px;
+  left: 1300px;
+  top: 666px;
+}
+
+#theend{
+  position: absolute;
+  width: 323px;
+  height: 84px;
+  left: 1300px;
+  top: 777px;
+}
+
+#ad{
+  position: absolute;
+  width: 500px;
+  height: 84px;
+  left: 1300px;
+  top: 888px;
+}
+
+#sleep{
+  position: absolute;
+  width: 323px;
+  height: 84px;
+  left: 1300px;
+  top: 1000px;
+}
+
+/* Content */

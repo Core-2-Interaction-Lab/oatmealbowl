@@ -1,0 +1,32 @@
+html{
+    font-family: "pt-mono", monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color:rgb(7, 7, 7);
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+  }
+
+  /* Main Part */
+.container{
+  position: absolute;
+}
+
+#kdot{
+  position: absolute;
+width: 167px;
+height: 41px;
+left: 370px;
+top: 202px;
+font-size: 48px;
+}
+
+#here{
+  position: absolute;
+width: 199px;
+height: 41px;
+left: 1500px;
+top: 900px;
+}
+/* Content */
