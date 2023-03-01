@@ -1,0 +1,48 @@
+html{
+    /* font-family: "pt-mono", monospace; */
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    font-style: bold;
+    font-weight: 800;
+    /* font-size: 12px; */
+    color:rgb(7, 7, 7);
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+  }
+
+body{
+  font-family: 'GentiumPlusW', serif;
+}
+
+.numbers{
+  font-size: 48px;
+  color:blue;
+}
+
+  #main{
+    position: absolute;
+width: 1137px;
+height: 552px;
+left: 71px;
+top: 184px;
+
+font-family: 'PT Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 40px;
+
+  }
+
+  #header{
+    position: absolute;
+width: 368px;
+height: 72px;
+left: 71px;
+top: 39px;
+
+font-family: 'PT Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 40px;
+  }

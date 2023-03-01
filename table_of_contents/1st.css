@@ -1,0 +1,23 @@
+html{
+    /* font-family: "pt-mono", monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px; */
+    color:rgb(7, 7, 7);
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+  }
+
+  body{
+    font-family: 'GentiumPlusW', serif;
+  }
+
+  #main{
+    position: absolute;
+  }
+
+  @font-face {
+    font-family: "Gentium Plus";
+    src: url("GentiumPlus.woff2") format("woff2");
+    
+  }
