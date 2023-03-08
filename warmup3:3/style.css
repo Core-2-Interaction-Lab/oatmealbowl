@@ -1,0 +1,9 @@
+.body{
+  background-color: beige;
+}
+
+.title{
+position: absolute;
+left: 50%;
+top: 20%;
+}
