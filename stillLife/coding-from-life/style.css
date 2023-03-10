@@ -1,0 +1,88 @@
+#table{
+    position: absolute;
+    top:20%;
+    width: 100%;
+    height: 100%;
+    color: aliceblue;
+}
+
+#lamp{
+    position:absolute;
+    left: 53%;
+    top: 10%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+
+}
+
+#lampTop{
+    background-color: rgb(159, 157, 188);
+    width: 150px;
+    height: 100px;
+    border-top-right-radius: 25%;
+    border-top-left-radius: 25%;
+
+}
+
+#lampBottom{
+    background-color: antiquewhite;
+    width: 50px;
+    height: 150px;
+    
+}
+
+#tape{
+    position: absolute;
+    left: 28%;
+    top:37%;
+    width: 100px;
+    height: 100px;
+    background: rgb(30, 23, 134);
+    border-radius: 50%
+}
+
+#bread{
+    position:absolute;
+    left: 45%;
+    top: 40%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+#breadTop{
+    width: 50px;
+    height: 50px;
+    background: rgb(159, 157, 188);
+    border-radius: 50%
+}
+
+#breadBottom{
+    
+    background-color: antiquewhite;
+    width: 80px;
+    height: 120px;
+}
+
+#eightBall{
+    position: absolute;
+    left: 15%;
+    top:55%;
+    width: 100px;
+    height: 100px;
+    background: rgb(1, 1, 8);
+    border-radius: 50%
+}
+
+
+#pear{
+    position: absolute;
+    left: 63%;
+    top:45%;
+    width: 200px;
+    height: 100px;
+    background: rgb(231, 192, 142);
+    border-radius: 100px / 50px;
+    rotate: 130deg;
+}
