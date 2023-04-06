@@ -26,15 +26,20 @@ html{
 
 .message {
   display: none;
+  
   position: absolute;
   /* top: 700px; */
   left: 50%;
   transform: translate(-50%, 0);
-  background: rgba(182, 205, 219, 0.856);
+  /* background: rgba(182, 205, 219, 0.856); */
+  background-image: url(./ksky2.JPG);
+  background-size: cover;
   border-radius: 25px;
   line-height: 200%;
+  /* Used to be width 300px */
   width: 300px;
-  padding: 12px;
+  /* Used to be padding 12px */
+  padding: 30px;
   z-index: 999;
 }
 
@@ -55,7 +60,11 @@ div:hover > .message {
     border-top: solid 1px white;
   }
 
+
+ 
 .TL{
+  font-size: 30px;
+  font-kerning: 10px;
   color: rgb(68, 68, 134);
 }
 
@@ -64,6 +73,14 @@ div:hover > .message {
     padding-top: 50px;
     height: 100vh;
   }
+
+  .pic2{
+    position: absolute;
+  top: 40vh;
+  left: 44vw;
+  }
+  
+  
 
   #group1 .preview {
     position: absolute;
@@ -78,9 +95,10 @@ div:hover > .message {
     /* top: 700px; */
     left: 50%;
     transform: translate(-50%, 0);
-    background: rgba(182, 205, 219, 0.856);
+    /* background: rgba(182, 205, 219, 0.856); */
+    background-image: url(ksky2.JPG);
     width: 300px;
-    padding: 12px;
+    padding: 30px;
   }
 
   #group1 .preview:hover > .message {
