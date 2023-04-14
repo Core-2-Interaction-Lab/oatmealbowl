@@ -1,0 +1,58 @@
+html{
+    font-family: "pt-mono", monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color:rgb(7, 7, 7);
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+  }
+
+.container{
+  position: relative;
+  /* font-size: 24px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+.video{
+  position: absolute;
+  left: 650px;
+  top: 50px;
+}
+
+.pic1{
+  position: absolute;
+  left: 650px;
+  top: 100px;
+}
+
+.pic2{
+  position: absolute;
+  left: 650px;
+  top: 500px;
+}
+
+.pic3{
+  position: absolute;
+  left: 650px;
+  top: 900px;
+}
+
+.pic4{
+  position: absolute;
+  left: 650px;
+  top: 1300px;
+}
+
+/* Content */
+
+#fst{
+  position: absolute;
+  width: 1234px;
+  height: 214px;
+  left: 23px;
+  top: 1700px;
+}
