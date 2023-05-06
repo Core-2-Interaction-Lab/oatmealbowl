@@ -23,6 +23,51 @@ footer{
 
 }
 
+
+
+/* TOP BANNER */
+#topbox {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.marquee {
+  font-size: 2rem;
+  height: 3vh;
+  position: absolute;
+  width: 100%;
+  background-color: gold;
+  white-space: nowrap;
+  overflow: hidden;
+  
+
+}
+
+
+.marquee div{
+  animation: animate 20s linear infinite;
+  padding-left: 100%;
+  display: inline-block;
+}
+
+/* .marquee .close {
+	position: absolute;
+			top: px;
+			right: 5px;
+			cursor: pointer;
+      color:black;
+} */
+
+
+@keyframes animate{
+  100%{
+    transform: translate(-100%,0);
+  }
+}
+
+
 #container{
   position: relative;
   display: flex;
