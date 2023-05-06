@@ -1,0 +1,68 @@
+[
+  {
+    "Name": "Tompkins Sq Greenmarket",
+    "Borough": "Manhattan",
+    "Street Address": "E. 7th St & Ave A",
+    "Days of Operation": "Sun",
+    "Hours": "9-5",
+    "Season Opened": "Year-Round",
+    "EBT": "Yes",
+    "Apple": "Gold Delicious",
+    "Rating": "4/5"
+  },
+  {
+    "Name": "Union Sq Greenmarket",
+    "Borough": "Manhattan",
+    "Street Address": "E. 17th St & Union Sq W",
+    "Days of Operation": "Mon, Wed, Fri & Sat",
+    "Hours": "8-6",
+    "Season Opened": "Year-Round",
+    "EBT": "Yes",
+    "Apple": "MacIntosh",
+    "Rating": "4/5"
+  },
+  {
+    "Name": "Astor Place Greenmarket",
+    "Borough": "Manhattan",
+    "Street Address": "Astor Pl between Broadway & Lafayette",
+    "Days of Operation": "Tues",
+    "Hours": "8-4",
+    "Season Opened": "Year-Round",
+    "EBT": "Yes",
+    "Apple": "Mutzu",
+    "Rating": "4.5/5"
+  },
+  {
+    "Name": "Tribeca Greenmarket",
+    "Borough": "Manhattan",
+    "Street Address": "Greenwich & Chambers St",
+    "Days of Operation": "Wed & Sat",
+    "Hours": "8-3",
+    "Season Opened": "Year-Round",
+    "EBT": "Yes",
+    "Apple": "Red Delicious",
+    "Rating": "3.5/5"
+  },
+  {
+    "Name": "City Hall Greenmarket",
+    "Borough": "Manhattan",
+    "Street Address": "Broadway & Chambers St",
+    "Days of Operation": "Tues & Fri",
+    "Hours": "8-4",
+    "Season Opened": "Year-Round",
+    "EBT": "Yes",
+    "Apple": "Pink Lady",
+    "Rating": "3.5/5"
+  },
+  {
+    "Name": "Bowling Green Greenmarket",
+    "Borough": "Manhattan",
+    "Street Address": "Broadway & Battery Pl",
+    "Days of Operation": "Tues & Thurs",
+    "Hours": "8-5",
+    "Season Opened": "Year-Round",
+    "EBT": "Yes",
+    "Apple": "Winesap",
+    "Rating": "3/5"
+  }
+]

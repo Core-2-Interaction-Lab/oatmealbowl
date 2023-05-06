@@ -1,0 +1,181 @@
+@font-face {
+  font-family: 'Newzald';
+  src: url('./fonts/Newzald-medium.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+html{
+  /* background-color: lightblue; */
+  /* background-color: #b4c1d4; */
+  background-color: #c07723;
+  font-family: "larken", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.8;
+}
+
+footer{
+  text-align: center;
+  /* background-color: #650A0A; */
+  color: #650A0A;
+
+}
+
+#container{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 30vw;
+  margin: 0 auto;
+}
+
+.crate{
+  position: relative;
+  z-index: 4;
+  pointer-events: none;
+  height: 50vh;
+}
+/* width: 5vw */
+
+
+.goldDelicious {
+  position: absolute;
+  bottom: 50%;
+  left: 35%;
+  width: 10vw;
+  height: 10vw;
+  z-index: 2;
+
+}
+
+.mutzu {
+  position: absolute;
+  bottom: 65%;
+  left: 59%;
+  width: 9vw;
+  height: 9vw;
+  z-index: 5;
+}
+
+.MacIntosh {
+  position: absolute;
+  bottom: 64%;
+  left: 36%;
+  width: 10vw;
+  height: 10vw;
+  z-index: 5;
+  /* animation: bounce 2s ease-in-out infinite; */
+}
+
+.RedDelicious {
+  position: absolute;
+  bottom: 49%;
+  left: 6%;
+  width: 10vw;
+  height: 10vw;
+  z-index: 1; 
+}
+
+.winesap {
+  position: absolute;
+  bottom: 64%;
+  left: 12%;
+  width: 10vw;
+  height: 10vw;
+  z-index: 6; 
+}
+
+.pinkLady {
+  position: absolute;
+  bottom: 52%;
+  left: 61%;
+  width: 10vw;
+  height: 10vw;
+  z-index: 3;
+}
+
+.apple-button {
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  /* height: 50px; */
+}
+.apple-button.active {
+  /* width: 10vw;
+  height: 10vw;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5); */
+  /* z-index: 2; */
+  z-index: 8;
+  transform: scale(3);
+}
+
+
+.blur{
+  position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(255,255,255,0.5); */
+    filter: blur(5px);
+    backdrop-filter: blur(5px);
+    /* z-index: 1; */
+    z-index: 7;
+    pointer-events: none;
+    display: none;
+  }
+
+  #text {
+    font-family: 'Newzald';
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    /* transform: translate(-50%, -50%); */
+    background-color: #FADB4A;
+    color: #021D6F;
+    padding: 20px;
+    border-radius: 10px;
+    /* z-index: 3; */
+    z-index: 8;
+    display: none;
+    line-height: 1.5;
+    
+  }
+
+
+
+.blur.active {
+  display: block;
+}
+
+#text.active{
+  display: block;
+}
+
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+
+@media (max-width: 768px){
+  .pinkLady {
+    width: 30px;
+    height: 30px;
+  }
+  .MacIntosh{
+    width:30px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 768px){
+.crate {
+    width: 80vw;
+    height: 80vw;
+}
+}

@@ -1,0 +1,37 @@
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.marquee {
+  width: 80%;
+  background-color: gold;
+  white-space: nowrap;
+  overflow: hidden;
+
+}
+
+
+.marquee div{
+  animation: animate 20s linear infinite;
+  padding-left: 100%;
+  display: inline-block;
+}
+
+.marquee .close {
+	position: absolute;
+			top: 5px;
+			right: 5px;
+			cursor: pointer;
+      color:black;
+}
+
+
+@keyframes animate{
+  100%{
+    transform: translate(-100%,0);
+  }
+}

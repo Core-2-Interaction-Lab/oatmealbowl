@@ -1,0 +1,29 @@
+
+.banner {
+    background-color: #c82828;
+    padding: 20px;
+    text-align: center;
+    margin: 25%;
+ 
+  }
+  
+  .banner p {
+    margin: 0;
+  }
+  
+  .banner button {
+    background-color: #c82828;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    position: relative;
+    right: 20px;
+    top: 20px;
+  }
+  
+  .banner button:hover {
+    background-color: rgb(49, 177, 79);
+  }
+  
