@@ -25,22 +25,24 @@ footer{
 
 
 
-/* TOP BANNER */
+/* TOP BANNER
 #topbox {
   position: relative;
   display: flex;
   justify-content: center;
   
+  
 }
 
 .marquee {
   font-size: 2rem;
-  height: 4vh;
+  height: 3vh;
   position: absolute;
   width: 100%;
   background-color: gold;
   white-space: nowrap;
   overflow: hidden;
+  align-items: center;
   
 
 }
@@ -50,15 +52,9 @@ footer{
   animation: animate 20s linear infinite;
   padding-left: 100%;
   display: inline-block;
-}
-
-/* .marquee .close {
-	position: absolute;
-			top: px;
-			right: 5px;
-			cursor: pointer;
-      color:black;
 } */
+
+
 
 
 @keyframes animate{
@@ -137,7 +133,7 @@ footer{
 .pinkLady {
   position: absolute;
   bottom: 52%;
-  left: 61%;
+  left: 59%;
   width: 10vw;
   height: 10vw;
   z-index: 3;
